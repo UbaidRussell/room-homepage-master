@@ -1,9 +1,5 @@
 $.noConflict();
 jQuery(document).ready(($) => {
-
-    // $('.slick-prev').eq(0).text('<p>OK</p>')
-    /* let prev = document.getElementsByClassName('slick-prev');
-    console.log(prev.innerHTtml); */
     let count = 0;
     $('#burger, #cross, #opacity').on('click', () => {
         count++;
