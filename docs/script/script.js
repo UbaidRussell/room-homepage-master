@@ -22,10 +22,5 @@ jQuery(document).ready(($) => {
     $('.slider').slick({
         mobileFirst: true,
     })
-    /* $('#previous').on('click', () => {
-        for (let i = 0; i < $('.slide').length; i++) {
-                $('.slide').eq(i).css({ display: 'none' });
-                $('.slide').eq(i - 1).css({ display: 'flex' });
-        }
-    }) */
+    
 });
